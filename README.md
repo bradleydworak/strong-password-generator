@@ -1,3 +1,4 @@
+```
 #!/usr/bin/python3
 
 # Generates a 15-character strong password with at least 3 symbols, 3 numbers, and 1 uppercase letter
@@ -14,3 +15,4 @@ while True:
     		and sum(c in string.punctuation for c in password) >= 3):
     	break
 print(password)
+```
